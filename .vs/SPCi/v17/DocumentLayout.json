@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\spci.web.applications\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|solutionrelative:spci.web.applications\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|c:\\users\\conta\\downloads\\proyectocaldera-main\\spci\\spci.web.applications\\pages\\misc\\bitacora.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|solutionrelative:spci.web.applications\\pages\\misc\\bitacora.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\spci.web.applications\\pages\\misc\\pruebas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|solutionrelative:spci.web.applications\\pages\\misc\\pruebas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\spci.web.applications\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|solutionrelative:spci.web.applications\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\spci.web.applications\\pages\\misc\\excel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|solutionrelative:spci.web.applications\\pages\\misc\\excel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\spci.web.applications\\pages\\misc\\bitacora.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|solutionrelative:spci.web.applications\\pages\\misc\\bitacora.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bitacora.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\Pages\\Misc\\Bitacora.aspx.cs",
+              "RelativeDocumentMoniker": "SPCi.Web.Applications\\Pages\\Misc\\Bitacora.aspx.cs",
+              "ToolTip": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\Pages\\Misc\\Bitacora.aspx.cs",
+              "RelativeToolTip": "SPCi.Web.Applications\\Pages\\Misc\\Bitacora.aspx.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAwwA4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T06:11:33.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\web.config",
+              "RelativeDocumentMoniker": "SPCi.Web.Applications\\web.config",
+              "ToolTip": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\web.config",
+              "RelativeToolTip": "SPCi.Web.Applications\\web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-14T15:06:00.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pruebas.aspx",
+              "DocumentMoniker": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\Pages\\Misc\\Pruebas.aspx",
+              "RelativeDocumentMoniker": "SPCi.Web.Applications\\Pages\\Misc\\Pruebas.aspx",
+              "ToolTip": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\Pages\\Misc\\Pruebas.aspx",
+              "RelativeToolTip": "SPCi.Web.Applications\\Pages\\Misc\\Pruebas.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-14T15:04:09.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bitacora.aspx",
+              "DocumentMoniker": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\Pages\\Misc\\Bitacora.aspx",
+              "RelativeDocumentMoniker": "SPCi.Web.Applications\\Pages\\Misc\\Bitacora.aspx",
+              "ToolTip": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\Pages\\Misc\\Bitacora.aspx",
+              "RelativeToolTip": "SPCi.Web.Applications\\Pages\\Misc\\Bitacora.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-10T14:49:15.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Excel.aspx",
+              "DocumentMoniker": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\Pages\\Misc\\Excel.aspx",
+              "RelativeDocumentMoniker": "SPCi.Web.Applications\\Pages\\Misc\\Excel.aspx",
+              "ToolTip": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\Pages\\Misc\\Excel.aspx",
+              "RelativeToolTip": "SPCi.Web.Applications\\Pages\\Misc\\Excel.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-10T12:37:43.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\Default.aspx",
+              "RelativeDocumentMoniker": "SPCi.Web.Applications\\Default.aspx",
+              "ToolTip": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\Default.aspx",
+              "RelativeToolTip": "SPCi.Web.Applications\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-03T16:33:27.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

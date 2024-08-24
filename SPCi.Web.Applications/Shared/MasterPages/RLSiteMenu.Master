@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RLSiteMenu.Master.cs" Inherits="SPCi.Web.Public.Shared.MasterPages.RLSiteMenu" %>
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Sociedad Portuaria de Caldera</title>
+    <link href="https://web.spcaldera.com/SPC/Public/Shared/CSS/default.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <telerik:RadScriptManager runat="server">
+            <Scripts>
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+                <asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+            </Scripts>
+        </telerik:RadScriptManager>
+        <div id="wrapper">
+            <telerik:RadPageLayout runat="server" ID="MasterLayout" GridType="Fluid">
+                <Rows>
+                    <telerik:LayoutRow CssClass="header">
+                        <Columns>
+                            <telerik:LayoutColumn Span="4" SpanMd="4" SpanSm="2" SpanXs="2">
+                                <telerik:RadMenu ID="mnuPrincipal" runat="server" DataSourceID="sdsMenu"
+                                    DataFieldID="DataFieldID" DataFieldParentID="DataFieldParentID"
+                                    DataNavigateUrlField="DataNavigatUrlField" DataTextField="DataText"
+                                    DataValueField="DataValue" Flow="Horizontal" Width="100%"
+                                    RenderMode="Auto">
+                                </telerik:RadMenu>
+                                <asp:SqlDataSource ID="sdsMenu" runat="server" ConnectionString='<%$ ConnectionStrings:op_SPC %>' ProviderName='<%$ ConnectionStrings:op_SPC.ProviderName %>' SelectCommand="SELECT [IxMenu], [DataFieldID], [DataFieldParentID], [DataText], [DataValue], [DataNavigatUrlField] FROM [Menu] ORDER BY [DataFieldID]"></asp:SqlDataSource>
+                            </telerik:LayoutColumn>
+                        </Columns>
+                    </telerik:LayoutRow>
+                </Rows>
+            </telerik:RadPageLayout>
+            <div id="mainContent">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <telerik:RadPageLayout runat="server" GridType="Fluid">
+                <Rows>
+                    <telerik:LayoutRow>
+                        <Columns>
+                            <telerik:LayoutColumn Span="12">
+                                <asp:ContentPlaceHolder ID="FooterContent" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </telerik:LayoutColumn>
+                        </Columns>
+                    </telerik:LayoutRow>
+                </Rows>
+            </telerik:RadPageLayout>
+        </div>
+    </form>
+</body>
+</html>
