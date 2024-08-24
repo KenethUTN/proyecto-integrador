@@ -41,11 +41,11 @@
                             <asp:Label ID="lblIdVistaInsert" runat="server" Text='<%# SiguienteIdVista %>' />
                         </InsertItemTemplate>
                     </telerik:GridTemplateColumn>
-                    <telerik:GridBoundColumn DataField="lx_ServicioGranel" HeaderText="Servicio Granel" SortExpression="lx_ServicioGranel"
-                        UniqueName="lx_ServicioGranel">
+                    <telerik:GridBoundColumn DataField="ServicioGranelNombre" HeaderText="Servicio Granel" SortExpression="ServicioGranelNombre"
+                        UniqueName="ServicioGranelNombre">
                         <HeaderStyle Width="150px" />
                     </telerik:GridBoundColumn>
-                    <telerik:GridBoundColumn DataField="idTipoCarga" HeaderText="Carga" SortExpression="idTipoCarga"
+                    <telerik:GridBoundColumn DataField="TipoCargaNombre" HeaderText="Tipo de Carga" SortExpression="TipoCargaNombre"
                         UniqueName="idTipoCarga">
                         <HeaderStyle Width="150px" />
                     </telerik:GridBoundColumn>

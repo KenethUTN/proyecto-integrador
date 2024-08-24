@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\spci.web.applications\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\spci.web.applications\\pages\\misc\\pruebas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|solutionrelative:spci.web.applications\\pages\\misc\\pruebas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|c:\\users\\conta\\downloads\\proyectocaldera-main\\spci\\spci.web.applications\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|solutionrelative:spci.web.applications\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|c:\\users\\conta\\downloads\\proyectocaldera-main\\spci\\spci.web.applications\\pages\\misc\\bitacora.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\spci.web.applications\\pages\\misc\\bitacora.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|solutionrelative:spci.web.applications\\pages\\misc\\bitacora.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\spci.web.applications\\pages\\misc\\pruebas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|solutionrelative:spci.web.applications\\pages\\misc\\pruebas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CF5A632-15E4-4EB7-B197-781181C7EAAF}|SPCi.Web.Applications\\SPCi.Web.Applications.csproj|C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\spci.web.applications\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Bitacora.aspx.cs",
               "DocumentMoniker": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\Pages\\Misc\\Bitacora.aspx.cs",
               "RelativeDocumentMoniker": "SPCi.Web.Applications\\Pages\\Misc\\Bitacora.aspx.cs",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "SPCi.Web.Applications\\Pages\\Misc\\Bitacora.aspx.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAwwA4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T06:11:33.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T06:11:33.034Z"
             },
             {
               "$type": "Document",
@@ -64,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Pruebas.aspx",
               "DocumentMoniker": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\Pages\\Misc\\Pruebas.aspx",
               "RelativeDocumentMoniker": "SPCi.Web.Applications\\Pages\\Misc\\Pruebas.aspx",
@@ -101,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\conta\\Downloads\\ProyectoCaldera-main\\SPCi\\SPCi.Web.Applications\\Default.aspx",
               "RelativeDocumentMoniker": "SPCi.Web.Applications\\Default.aspx",

@@ -20,29 +20,39 @@ namespace SPCi.Web.Applications.Pages.Misc
             RadGrid1.InsertCommand += RadGrid1_InsertCommand; // Agregar el evento de inserción
         }
 
-        protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
+        private DataTable ObtenerDatos()
         {
-            if (RadGrid1 != null)
+            DataTable dataTable = new DataTable();
+            string connectionString = ConfigurationManager.ConnectionStrings["op_SPC"].ConnectionString;
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                MostrarDatos();
+                string query = @"
+                    SELECT
+                        t.lx_SGTemporal,
+                        t.lx_ServicioGranel,
+                        t.idTipoCarga,
+                        t.cho_cedula,
+                        t.cam_placa,
+                        t.fecha_hora,
+                        t.estado,
+                        c.DsTipoCarga AS TipoCargaNombre,
+                        s.DsServicioGranel AS ServicioGranelNombre
+                    FROM
+                        dbo.SGTemporal t
+                    INNER JOIN
+                        dbo.VCarga c ON t.idTipoCarga = c.IdTipoCargo
+                    INNER JOIN
+                        dbo.ServicioGranel s ON t.lx_ServicioGranel = s.IxServicioGranel";
+
+                SqlDataAdapter dataAdapter = new SqlDataAdapter(query, connection);
+                dataAdapter.Fill(dataTable);
             }
+            return dataTable;
         }
 
-        protected void MostrarDatos()
+        protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
         {
-            // Solo muestra datos si RadGrid1 no es null
-            if (RadGrid1 != null)
-            {
-                string connectionString = ConfigurationManager.ConnectionStrings["op_SPC"].ConnectionString;
-                using (SqlConnection connection = new SqlConnection(connectionString))
-                {
-                    string query = "SELECT * FROM dbo.SGTemporal";
-                    SqlDataAdapter dataAdapter = new SqlDataAdapter(query, connection);
-                    DataTable dataTable = new DataTable();
-                    dataAdapter.Fill(dataTable);
-                    RadGrid1.DataSource = dataTable;
-                }
-            }
+            RadGrid1.DataSource = ObtenerDatos();
         }
 
         private void EjecutarProcedimientoActualizarEstadoVista()
